@@ -1,12 +1,12 @@
-[!Ex1](imgs/ex-1.png)
-[!Ex2](imgs/ex-2.png)
-[!Ex3](imgs/ex-3.png)
-[!Ex4](imgs/ex-4.png)
-[!Ex5](imgs/ex-5.png)
-[!Ex6](imgs/ex-6.png)
-[!Ex7](imgs/ex-7.png)
-[!Ex8](imgs/ex-8.png)
-[!Ex9](imgs/ex-9.png)
+![Ex1](imgs/ex-1.png)
+![Ex2](imgs/ex-2.png)
+![Ex3](imgs/ex-3.png)
+![Ex4](imgs/ex-4.png)
+![Ex5](imgs/ex-5.png)
+![Ex6](imgs/ex-6.png)
+![Ex7](imgs/ex-7.png)
+![Ex8](imgs/ex-8.png)
+![Ex9](imgs/ex-9.png)
 
 #How can you use Chrome's DevTools inspector to help you format or position elements?
 
