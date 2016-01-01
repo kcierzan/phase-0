@@ -1,0 +1,77 @@
+* {
+  position: relative;
+}
+
+
+h1 {
+  display: inline-block;
+  margin-left: 30%;
+  font-family: Futura, Sans-serif;
+  color: #004c99;
+  font-size: 50px;
+  border-bottom: solid black 3px;
+}
+
+header > p {
+  margin: 20px 30px 10px 30px;
+  font-family: Garamond, Serif;
+  font-size: 16px;
+  text-align: center;
+}
+.column-1 {
+  display: inline-block;
+  float: left;
+  width: 40%;
+  margin-left: 5%;
+  margin-top: 10px;
+  border-radius: 20px;
+  background-color: #eff2ff;
+  padding: 5px 10px 86px 20px;
+}
+
+.column-2 {
+  display: inline-block;
+  float: right;
+  width: 40%;
+  margin-right: 5%;
+  margin-top: 10px;
+  border-radius: 20px;
+  background-color: #eff2ff;
+  padding: 5px 10px 75px 20px;
+
+}
+header {
+  clear: both;
+}
+footer {
+  font-family: Futura, Sans-serif;
+  font-size: 20px;
+  display: block;
+  position: absolute;
+  margin-top: 1150px;
+  margin-left: 25%;
+  margin-bottom: 20px;
+}
+
+article > h2 {
+  white-space: nowrap;
+  font-family: Futura, Sans-Serif;
+  color: #004c99;
+  border-top: solid black 1px;
+  padding-top: 15px;
+}
+
+article {
+  font-family: Garamond, Serif;
+  font-size: 14px;
+}
+
+ul.cirlce {
+  list-style-type: circle;
+}
+
+/*
+
+I felt much more confident using positioning and floats in order to create a functional layout. After practicing and further study about the behavior of certain elements in regards to their default display and positioning properties, I was able to position elements as necessary without the extraneous code I was using in previous exercises. I found myself doing less "guess and check" when writing CSS as I could more reliably predict the effect I was having when adjusting margin and positioning properties. I was able to use classes, children, and direct children much more efficiently instead of having to constantly rely on creating new classes to select individual CSS elements.
+
+*/
