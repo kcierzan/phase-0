@@ -84,3 +84,25 @@ def pad(array, min_size, value = nil)
 end
 
 # 4. Reflection
+=begin
+Once you had written your pseudocode, were you able to easily translate it into code? What difficulties and successes did you have?
+
+We were able to translate our pseudocode to code fairly easily as we used statments in our pseudocode that corresponded with Ruby methods. The difficulties arose when we had to establish the sequence of events in our code while the sequence is a bit more ambiguous in the english version
+
+Was your initial solution successful at passing the tests? If so, why do you think that is? If not, what were the errors you encountered and what did you do to resolve them?
+
+Our initial solutions was not successful at passing the tests because we had started down a rabbit hole where we were trying to do more than the challenge was going to require and we ended up over-coding our solution until we made too many guesses to manage successfully. We ended up starting again and working towards a very literal solution to the challenge that greatly helped simplify our efforts.
+
+When you refactored, did you find any existing methods in Ruby to clean up your code?
+
+We did not end up using any particularly sophisticated ruby methods in our solution. Much of our work centered around creating a functioning loops based on boolean expressions.
+
+How readable is your solution? Did you and your pair choose descriptive variable names?
+
+I believe our solution is very readable because our methods were fairly simply and we did not agonize about getting everything on one line. Our variables are descriptive and clearly describe the purpose they serve within the methods.
+
+What is the difference between destructive and non-destructive methods in your own words?
+
+The difference between destructive and non-destructive methods is that non-destructive methods create a copy of the input or variable that is modified as opposed to destructive methods which modify the input or variable without copying.
+
+=end
