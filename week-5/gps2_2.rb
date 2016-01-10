@@ -138,6 +138,36 @@ quantity = gets.chomp
 
 update_quantity(list, item, quantity)
 
+=begin
+
+Reflection
+
+What did you learn about pseudocode from working on this challenge?
+
+During our pseudocoding, our guide was extremely helpful when she provided us with a pseudocoding style guideline. This allowed us to write useful pseudocode without focusing on Ruby methods. This added to our focus on keywords and key concepts that would prove to be extremely useful while coding, without pigeonholing us to particular ruby methods that may have proven confusing or misleading when it came to actual code. I learned it was more useful to stick to a certain convention while working with another person than to attempt to get every aspect of our pseudocode "right".
+
+What are the tradeoffs of using Arrays and Hashes for this challenge?
+
+During this challenge I found that it was a bit more natural to change and manipulate the values of arrays than it was to iterate through or modify the values/keys of hashes. I believe it was the kind of "one dimensionality" of arrays that made this feel a bit more immediate. By the end of the challenge I felt more comfortable modifying the data within hashes.
+
+What does a method return?
+
+A method, by default, returns the value of the last evaluated expression. This can prove to be confusing as one may think one has created a method that will modify a desired data structure, but in our case, it was necessary to explicitly return that data structure to ensure it was being modified correctly.
+
+What kind of things can you pass into methods as arguments?
+
+This challenge illustrated that we can pass a variety of objects as inputs to an argument. We were able to successfully pass strings, hashes, and integers to a method.
+
+How can you pass information between methods?
+
+It is possible to call a method within another method. This allows one to pass information from one method to another as the nested method will return information that the main method may not otherwise have access to. We accomplished this mainly with out "puts" formatting method which provided human-readable formatting to the hash we were working with.
+
+What concepts were solidified in this challenge, and what concepts are still confusing?
+
+This challenge solidified the nature of destrucitve methods as well as the nature of local variables. It was a bit of a challenge to determine which variables would be accessible to ever method and how those variables may change based on user input in our command line appplication. I feel fairly comfortable with the concepts addressed in this challenge but I feel the nagging sense that I may be circumventing some "best practices" in my methods or solutions as I sometimes find difficulty in refactoring my solutions.
+
+=end
+
 # TEST CODE - CREATE LIST
 #puts "give me a list of groceries:"
 #items = gets.chomp
