@@ -1,6 +1,6 @@
  // JavaScript Olympics
 
-// I paired with: Kyle Cierzan on this challenge.
+// I paired with: Jeremy Oltean on this challenge.
 
 // This challenge took me [2.5] hours.
 
