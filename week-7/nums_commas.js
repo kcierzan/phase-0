@@ -46,22 +46,23 @@ RETURN the string
 // separateComma(inputInteger)
 
 // Refactored Solution
-var inputInteger = 61934671021212337;
+var inputInteger = 987922222222;
 
 function separateComma(inputInteger) {
   var inputNumberArray = inputInteger.toString().split("");
-  if (inputNumberArray.length < 4) {
+  //var arrayLength = inputNumberArray.length;
+  if (inputNumberArray.length < 4){
     console.log(inputInteger);
   }
   else {
-  var index = -3;
-    for (var counter = inputNumberArray.length; counter >= 0; counter -= 4) {
+    var index = -3;
+    for (var loopTimes = inputNumberArray.length / 3; loopTimes > 1; loopTimes--) {
       inputNumberArray.splice(index, 0, ",");
       index -= 4;
     };
     var outputString = inputNumberArray.join("");
+    console.log(outputString);
   };
- console.log(outputString);
 };
 
 separateComma(inputInteger)

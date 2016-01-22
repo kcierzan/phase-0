@@ -4,7 +4,8 @@
 
 // Program Structure
 // Write your own variable and do something to it.
-
+var myNumber = 7
+myNumber += 2
 
 
 
