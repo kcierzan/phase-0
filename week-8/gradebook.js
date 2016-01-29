@@ -76,6 +76,7 @@ We defined a function that used a for loop that iterated over every element in t
 Were there any new methods you were able to incorporate? If so, what were they and how did they work?
 
 We did not incorporate any truly new methods but I believe this is the first time I used the push function to append an integer into an existing array. I was familiar with this method in Ruby and its use here is very similar.
+*/
 
 
 
