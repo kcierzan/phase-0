@@ -1,7 +1,7 @@
 // Tally Votes in JavaScript Pairing Challenge.
 
 // I worked on this challenge with:
-// This challenge took me [#] hours.
+// This challenge took me [1.5] hours.
 
 // These are the votes cast by each student. Do not alter these objects here.
 var votes = {
