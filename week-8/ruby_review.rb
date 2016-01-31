@@ -1,7 +1,7 @@
 # Cipher Challenge
 
 # I worked on this challenge [by myself]
-# I spent [1.5] hours on this challenge.
+# I spent [1.5git s] hours on this challenge.
 
 # 1. Solution
 # Write your comments on what each thing is doing.
